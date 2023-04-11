@@ -1,0 +1,27 @@
+The PA2 designs are included in eecs570_sample directory.
+Please following following operation to run msi, MESI, MOESI, MOESI with Self-downgrade
+For Running MSI protocal:
+1. cd eecs570_sample
+2. ./mu MSI_Protocal.m
+3. make MSI_Protocal
+4. ./MSI_Protocal -tv -m256> msi.out
+
+Optimization:
+
+For Running MESI protocal:
+1. cd eecs570_sample
+2. ./mu MESI_Protocal.m
+3. make MESI_Protocal
+4. ./MESI_Protocal -tv -m256> mesi.out
+
+For Running MOESI protocal:
+1. cd eecs570_sample
+2. ./mu MOESI.m
+3. make MOESI
+4. ./MOESI -tv -m256> MOESI.out
+
+For Running MOESI with Self-downgrade protocal:
+1. cd eecs570_sample
+2. ./mu MOESI_Self_D.m
+3. make MOESI_Self_D
+4. ./MOESI_Self_D -tv -m256> MOESI_Self_D.out
